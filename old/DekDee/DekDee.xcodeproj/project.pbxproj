@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EAF7ABF763A2A53325A2BA0 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD31679DA774A75ACD7D82E /* Pods.framework */; };
+		E127C9E91C36C16300E83E31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E127C9E81C36C16300E83E31 /* AppDelegate.swift */; };
+		E127C9EE1C36C16300E83E31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E127C9EC1C36C16300E83E31 /* Main.storyboard */; };
+		E127C9F01C36C16300E83E31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E127C9EF1C36C16300E83E31 /* Assets.xcassets */; };
+		E127C9F31C36C16300E83E31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E127C9F11C36C16300E83E31 /* LaunchScreen.storyboard */; };
+		E127C9FE1C36C16300E83E31 /* DekDeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E127C9FD1C36C16300E83E31 /* DekDeeTests.swift */; };
+		E127CA091C36C16300E83E31 /* DekDeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E127CA081C36C16300E83E31 /* DekDeeUITests.swift */; };
+		E127CA191C36C8DA00E83E31 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E127CA181C36C8DA00E83E31 /* MainTableViewController.swift */; };
+		E127CA1B1C36E9B400E83E31 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = E127CA1A1C36E9B400E83E31 /* Product.swift */; };
+		E127CA1F1C36F65B00E83E31 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = E127CA1E1C36F65B00E83E31 /* Products.swift */; };
+		E127CA211C371B3F00E83E31 /* ShoppingBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = E127CA201C371B3F00E83E31 /* ShoppingBag.swift */; };
+		E127CA231C37228800E83E31 /* SubCategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E127CA221C37228800E83E31 /* SubCategoryTableViewController.swift */; };
+		E127CA251C3722AA00E83E31 /* SubCategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E127CA241C3722AA00E83E31 /* SubCategoryTableViewCell.swift */; };
+		E16674171C38D380000C302D /* BrandsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16674151C38D380000C302D /* BrandsTableViewController.swift */; };
+		E16674181C38D380000C302D /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16674161C38D380000C302D /* MainTableViewCell.swift */; };
+		E177303A1C37AA2E009968A5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17730391C37AA2E009968A5 /* Constants.swift */; };
+		E19407DB1C46C3A900261867 /* CGRect+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19407DA1C46C3A900261867 /* CGRect+Extension.swift */; };
+		E19407DD1C46C3CA00261867 /* CircularRevealTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19407DC1C46C3CA00261867 /* CircularRevealTransition.swift */; };
+		E19407E21C46C5FB00261867 /* UIImage+Autoresize.m in Sources */ = {isa = PBXBuildFile; fileRef = E19407DF1C46C5FB00261867 /* UIImage+Autoresize.m */; };
+		E1E7D51E1C37B35A003D7FA0 /* Love_in_Paris.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1E7D51D1C37B35A003D7FA0 /* Love_in_Paris.ttf */; };
+		E1E7D5221C37C63C003D7FA0 /* MainNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E7D5211C37C63C003D7FA0 /* MainNavigationBar.swift */; };
+		E1E7D5261C37E131003D7FA0 /* BrandTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E7D5251C37E131003D7FA0 /* BrandTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E127C9FA1C36C16300E83E31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E127C9DD1C36C16300E83E31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E127C9E41C36C16300E83E31;
+			remoteInfo = DekDee;
+		};
+		E127CA051C36C16300E83E31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E127C9DD1C36C16300E83E31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E127C9E41C36C16300E83E31;
+			remoteInfo = DekDee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6EBF15DAAF0A65F6B4A1718B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B6F109FB5E1726262276877B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		DBD31679DA774A75ACD7D82E /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E127C9E51C36C16300E83E31 /* DekDee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DekDee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E127C9E81C36C16300E83E31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E127C9ED1C36C16300E83E31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E127C9EF1C36C16300E83E31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E127C9F21C36C16300E83E31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E127C9F41C36C16300E83E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E127C9F91C36C16300E83E31 /* DekDeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DekDeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E127C9FD1C36C16300E83E31 /* DekDeeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DekDeeTests.swift; sourceTree = "<group>"; };
+		E127C9FF1C36C16300E83E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E127CA041C36C16300E83E31 /* DekDeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DekDeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E127CA081C36C16300E83E31 /* DekDeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DekDeeUITests.swift; sourceTree = "<group>"; };
+		E127CA0A1C36C16300E83E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E127CA181C36C8DA00E83E31 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		E127CA1A1C36E9B400E83E31 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		E127CA1E1C36F65B00E83E31 /* Products.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		E127CA201C371B3F00E83E31 /* ShoppingBag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingBag.swift; sourceTree = "<group>"; };
+		E127CA221C37228800E83E31 /* SubCategoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubCategoryTableViewController.swift; sourceTree = "<group>"; };
+		E127CA241C3722AA00E83E31 /* SubCategoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubCategoryTableViewCell.swift; sourceTree = "<group>"; };
+		E16674151C38D380000C302D /* BrandsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrandsTableViewController.swift; sourceTree = "<group>"; };
+		E16674161C38D380000C302D /* MainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		E17730391C37AA2E009968A5 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E19407DA1C46C3A900261867 /* CGRect+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Extension.swift"; sourceTree = "<group>"; };
+		E19407DC1C46C3CA00261867 /* CircularRevealTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularRevealTransition.swift; sourceTree = "<group>"; };
+		E19407DE1C46C5FB00261867 /* UIImage+Autoresize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Autoresize.h"; sourceTree = "<group>"; };
+		E19407DF1C46C5FB00261867 /* UIImage+Autoresize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Autoresize.m"; sourceTree = "<group>"; };
+		E19407E61C46C68700261867 /* DekDee-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DekDee-Bridging-Header.h"; sourceTree = "<group>"; };
+		E1E7D51D1C37B35A003D7FA0 /* Love_in_Paris.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Love_in_Paris.ttf; sourceTree = "<group>"; };
+		E1E7D5211C37C63C003D7FA0 /* MainNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationBar.swift; sourceTree = "<group>"; };
+		E1E7D5251C37E131003D7FA0 /* BrandTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrandTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E127C9E21C36C16300E83E31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EAF7ABF763A2A53325A2BA0 /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E127C9F61C36C16300E83E31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E127CA011C36C16300E83E31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		142B589E993849685DBE9E69 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6EBF15DAAF0A65F6B4A1718B /* Pods.debug.xcconfig */,
+				B6F109FB5E1726262276877B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7BE3E9B1A899E3659BFA1742 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBD31679DA774A75ACD7D82E /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E127C9DC1C36C16300E83E31 = {
+			isa = PBXGroup;
+			children = (
+				E127C9E71C36C16300E83E31 /* DekDee */,
+				E127C9FC1C36C16300E83E31 /* DekDeeTests */,
+				E127CA071C36C16300E83E31 /* DekDeeUITests */,
+				E127C9E61C36C16300E83E31 /* Products */,
+				142B589E993849685DBE9E69 /* Pods */,
+				7BE3E9B1A899E3659BFA1742 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E127C9E61C36C16300E83E31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E127C9E51C36C16300E83E31 /* DekDee.app */,
+				E127C9F91C36C16300E83E31 /* DekDeeTests.xctest */,
+				E127CA041C36C16300E83E31 /* DekDeeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E127C9E71C36C16300E83E31 /* DekDee */ = {
+			isa = PBXGroup;
+			children = (
+				E127CA201C371B3F00E83E31 /* ShoppingBag.swift */,
+				E127C9E81C36C16300E83E31 /* AppDelegate.swift */,
+				E127CA181C36C8DA00E83E31 /* MainTableViewController.swift */,
+				E16674151C38D380000C302D /* BrandsTableViewController.swift */,
+				E1E7D5251C37E131003D7FA0 /* BrandTableViewCell.swift */,
+				E16674161C38D380000C302D /* MainTableViewCell.swift */,
+				E17730391C37AA2E009968A5 /* Constants.swift */,
+				E127CA221C37228800E83E31 /* SubCategoryTableViewController.swift */,
+				E127CA241C3722AA00E83E31 /* SubCategoryTableViewCell.swift */,
+				E127CA1E1C36F65B00E83E31 /* Products.swift */,
+				E127CA1A1C36E9B400E83E31 /* Product.swift */,
+				E1E7D5211C37C63C003D7FA0 /* MainNavigationBar.swift */,
+				E127C9EC1C36C16300E83E31 /* Main.storyboard */,
+				E19407DA1C46C3A900261867 /* CGRect+Extension.swift */,
+				E19407DC1C46C3CA00261867 /* CircularRevealTransition.swift */,
+				E19407E61C46C68700261867 /* DekDee-Bridging-Header.h */,
+				E19407E11C46C5FB00261867 /* UIImage+Autoresize */,
+				E127C9EF1C36C16300E83E31 /* Assets.xcassets */,
+				E127C9F11C36C16300E83E31 /* LaunchScreen.storyboard */,
+				E127C9F41C36C16300E83E31 /* Info.plist */,
+				E1E7D5181C37B2AC003D7FA0 /* resources */,
+			);
+			path = DekDee;
+			sourceTree = "<group>";
+		};
+		E127C9FC1C36C16300E83E31 /* DekDeeTests */ = {
+			isa = PBXGroup;
+			children = (
+				E127C9FD1C36C16300E83E31 /* DekDeeTests.swift */,
+				E127C9FF1C36C16300E83E31 /* Info.plist */,
+			);
+			path = DekDeeTests;
+			sourceTree = "<group>";
+		};
+		E127CA071C36C16300E83E31 /* DekDeeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E127CA081C36C16300E83E31 /* DekDeeUITests.swift */,
+				E127CA0A1C36C16300E83E31 /* Info.plist */,
+			);
+			path = DekDeeUITests;
+			sourceTree = "<group>";
+		};
+		E19407E01C46C5FB00261867 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E19407DE1C46C5FB00261867 /* UIImage+Autoresize.h */,
+				E19407DF1C46C5FB00261867 /* UIImage+Autoresize.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E19407E11C46C5FB00261867 /* UIImage+Autoresize */ = {
+			isa = PBXGroup;
+			children = (
+				E19407E01C46C5FB00261867 /* Classes */,
+			);
+			name = "UIImage+Autoresize";
+			path = "../../../../../Downloads/Persei-master/Example/Example/External/UIImage+Autoresize";
+			sourceTree = "<group>";
+		};
+		E1E7D5181C37B2AC003D7FA0 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				E1E7D51D1C37B35A003D7FA0 /* Love_in_Paris.ttf */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E127C9E41C36C16300E83E31 /* DekDee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E127CA0D1C36C16300E83E31 /* Build configuration list for PBXNativeTarget "DekDee" */;
+			buildPhases = (
+				FB2ED8EFC637552A98E7DE7F /* Check Pods Manifest.lock */,
+				E127C9E11C36C16300E83E31 /* Sources */,
+				E127C9E21C36C16300E83E31 /* Frameworks */,
+				E127C9E31C36C16300E83E31 /* Resources */,
+				852CDC587F0FA85E97358A3E /* Embed Pods Frameworks */,
+				6C268AAF70E988A0A906CF7F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DekDee;
+			productName = DekDee;
+			productReference = E127C9E51C36C16300E83E31 /* DekDee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E127C9F81C36C16300E83E31 /* DekDeeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E127CA101C36C16300E83E31 /* Build configuration list for PBXNativeTarget "DekDeeTests" */;
+			buildPhases = (
+				E127C9F51C36C16300E83E31 /* Sources */,
+				E127C9F61C36C16300E83E31 /* Frameworks */,
+				E127C9F71C36C16300E83E31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E127C9FB1C36C16300E83E31 /* PBXTargetDependency */,
+			);
+			name = DekDeeTests;
+			productName = DekDeeTests;
+			productReference = E127C9F91C36C16300E83E31 /* DekDeeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E127CA031C36C16300E83E31 /* DekDeeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E127CA131C36C16300E83E31 /* Build configuration list for PBXNativeTarget "DekDeeUITests" */;
+			buildPhases = (
+				E127CA001C36C16300E83E31 /* Sources */,
+				E127CA011C36C16300E83E31 /* Frameworks */,
+				E127CA021C36C16300E83E31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E127CA061C36C16300E83E31 /* PBXTargetDependency */,
+			);
+			name = DekDeeUITests;
+			productName = DekDeeUITests;
+			productReference = E127CA041C36C16300E83E31 /* DekDeeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E127C9DD1C36C16300E83E31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = AppIllustrator;
+				TargetAttributes = {
+					E127C9E41C36C16300E83E31 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					E127C9F81C36C16300E83E31 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E127C9E41C36C16300E83E31;
+					};
+					E127CA031C36C16300E83E31 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E127C9E41C36C16300E83E31;
+					};
+				};
+			};
+			buildConfigurationList = E127C9E01C36C16300E83E31 /* Build configuration list for PBXProject "DekDee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E127C9DC1C36C16300E83E31;
+			productRefGroup = E127C9E61C36C16300E83E31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E127C9E41C36C16300E83E31 /* DekDee */,
+				E127C9F81C36C16300E83E31 /* DekDeeTests */,
+				E127CA031C36C16300E83E31 /* DekDeeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E127C9E31C36C16300E83E31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E127C9F31C36C16300E83E31 /* LaunchScreen.storyboard in Resources */,
+				E127C9F01C36C16300E83E31 /* Assets.xcassets in Resources */,
+				E127C9EE1C36C16300E83E31 /* Main.storyboard in Resources */,
+				E1E7D51E1C37B35A003D7FA0 /* Love_in_Paris.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E127C9F71C36C16300E83E31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E127CA021C36C16300E83E31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C268AAF70E988A0A906CF7F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		852CDC587F0FA85E97358A3E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB2ED8EFC637552A98E7DE7F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E127C9E11C36C16300E83E31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1E7D5261C37E131003D7FA0 /* BrandTableViewCell.swift in Sources */,
+				E127CA1B1C36E9B400E83E31 /* Product.swift in Sources */,
+				E127CA1F1C36F65B00E83E31 /* Products.swift in Sources */,
+				E127CA191C36C8DA00E83E31 /* MainTableViewController.swift in Sources */,
+				E19407DB1C46C3A900261867 /* CGRect+Extension.swift in Sources */,
+				E177303A1C37AA2E009968A5 /* Constants.swift in Sources */,
+				E127CA251C3722AA00E83E31 /* SubCategoryTableViewCell.swift in Sources */,
+				E1E7D5221C37C63C003D7FA0 /* MainNavigationBar.swift in Sources */,
+				E127CA231C37228800E83E31 /* SubCategoryTableViewController.swift in Sources */,
+				E16674171C38D380000C302D /* BrandsTableViewController.swift in Sources */,
+				E19407E21C46C5FB00261867 /* UIImage+Autoresize.m in Sources */,
+				E127CA211C371B3F00E83E31 /* ShoppingBag.swift in Sources */,
+				E16674181C38D380000C302D /* MainTableViewCell.swift in Sources */,
+				E19407DD1C46C3CA00261867 /* CircularRevealTransition.swift in Sources */,
+				E127C9E91C36C16300E83E31 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E127C9F51C36C16300E83E31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E127C9FE1C36C16300E83E31 /* DekDeeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E127CA001C36C16300E83E31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E127CA091C36C16300E83E31 /* DekDeeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E127C9FB1C36C16300E83E31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E127C9E41C36C16300E83E31 /* DekDee */;
+			targetProxy = E127C9FA1C36C16300E83E31 /* PBXContainerItemProxy */;
+		};
+		E127CA061C36C16300E83E31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E127C9E41C36C16300E83E31 /* DekDee */;
+			targetProxy = E127CA051C36C16300E83E31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E127C9EC1C36C16300E83E31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E127C9ED1C36C16300E83E31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E127C9F11C36C16300E83E31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E127C9F21C36C16300E83E31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E127CA0B1C36C16300E83E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E127CA0C1C36C16300E83E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E127CA0E1C36C16300E83E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EBF15DAAF0A65F6B4A1718B /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DekDee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appillustrator.DekDee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E127CA0F1C36C16300E83E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6F109FB5E1726262276877B /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DekDee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appillustrator.DekDee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E127CA111C36C16300E83E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DekDeeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appillustrator.DekDeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DekDee.app/DekDee";
+			};
+			name = Debug;
+		};
+		E127CA121C36C16300E83E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DekDeeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appillustrator.DekDeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DekDee.app/DekDee";
+			};
+			name = Release;
+		};
+		E127CA141C36C16300E83E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DekDeeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appillustrator.DekDeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DekDee;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E127CA151C36C16300E83E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DekDeeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appillustrator.DekDeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DekDee;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E127C9E01C36C16300E83E31 /* Build configuration list for PBXProject "DekDee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E127CA0B1C36C16300E83E31 /* Debug */,
+				E127CA0C1C36C16300E83E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E127CA0D1C36C16300E83E31 /* Build configuration list for PBXNativeTarget "DekDee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E127CA0E1C36C16300E83E31 /* Debug */,
+				E127CA0F1C36C16300E83E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E127CA101C36C16300E83E31 /* Build configuration list for PBXNativeTarget "DekDeeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E127CA111C36C16300E83E31 /* Debug */,
+				E127CA121C36C16300E83E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E127CA131C36C16300E83E31 /* Build configuration list for PBXNativeTarget "DekDeeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E127CA141C36C16300E83E31 /* Debug */,
+				E127CA151C36C16300E83E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E127C9DD1C36C16300E83E31 /* Project object */;
+}

@@ -1,0 +1,3 @@
+use_frameworks! 
+
+pod 'Persei', '~> 2.0.1'
